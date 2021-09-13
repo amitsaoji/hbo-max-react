@@ -4,12 +4,10 @@
 @use '../components/UI/Header/header';
 @use '../components/UI/SideNav/side-nav';
 @use '../components/UI/FeaturedMedia/_FeaturedMedia';
-@use '../components/UI/ForYouList/_ForYouList';
-@use '../components/UI/JustAdded/_JustAdded';
-@use '../components/UI/PosterView/_PosterView';
 @use '../components/UI/CastInfo/_CastInfo';
 @use '../components/UI/Account/_Account';
 @use '../components/UI/SearchModal/_SearchModal';
+@use '../components/UI/MediaRow/_MediaRow';
 
 html,
 body {
