@@ -28,8 +28,8 @@ const CastInfo = props => {
       return credits.cast.map(item => {
         return (
           <ul className="cast-info__crew">
-            <li>{item.character}</li>
-            <li>{item.name}</li>
+            <li key="{item.id}">{item.character}</li>
+            <li key="{item.id}">{item.name}</li>
           </ul>
         );
       });
