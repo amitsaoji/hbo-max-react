@@ -8,8 +8,13 @@
 @use '../components/UI/Account/_Account';
 @use '../components/UI/SearchModal/_SearchModal';
 @use '../components/UI/MediaRow/_MediaRow';
+@use '../components/UI/GenreNav/_GenreNav';
 
 html,
 body {
     background: black;
+}
+
+.hide-comp {
+    display: none;
 }
