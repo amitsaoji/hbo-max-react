@@ -3,18 +3,20 @@
 @use 'create-user';
 @use '../components/UI/Header/header';
 @use '../components/UI/SideNav/side-nav';
-@use '../components/UI/FeaturedMedia/_FeaturedMedia';
-@use '../components/UI/CastInfo/_CastInfo';
-@use '../components/UI/Account/_Account';
-@use '../components/UI/SearchModal/_SearchModal';
-@use '../components/UI/MediaRow/_MediaRow';
-@use '../components/UI/GenreNav/_GenreNav';
+@use '../components/UI/FeaturedMedia/FeaturedMedia';
+@use '../components/UI/CastInfo/CastInfo';
+@use '../components/UI/Account/Account';
+@use '../components/UI/SearchModal/SearchModal';
+@use '../components/UI/MediaRow/MediaRow';
+@use '../components/UI/GenreNav/genre-nav';
 
-html,
-body {
-    background: black;
+h1{
+  font-size: 3rem;
+}
+html, body{
+  background: black;
 }
 
-.hide-comp {
-    display: none;
+.hide-comp{
+  display: none;
 }
